@@ -5,6 +5,7 @@ import Flashcards from './pages/Flashcards';
 import QuizPage from './pages/QuizPage';
 import Progress from './pages/Progress';
 import Settings from './pages/Settings';
+import Stories from './pages/Stories';
 import { useLocalStorage } from './hooks/useLocalStorage';
 import { useSpacedRepetition } from './hooks/useSpacedRepetition';
 import { updateStreak, getTodayKey } from './utils/streakTracker';
@@ -134,6 +135,12 @@ export default function App() {
         theme={theme}
         setTheme={setTheme}
         onResetProgress={handleResetProgress}
+      />
+    ),
+    stories: (
+      <Stories
+        darkMode={darkMode}
+        theme={theme}
       />
     ),
   };
