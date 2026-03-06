@@ -10,6 +10,7 @@ export default function Navbar({ currentPage, setCurrentPage, darkMode, theme })
     { id: 'flashcards', label: 'Flashcards', emoji: '📚' },
     { id: 'quiz', label: 'Quiz', emoji: '🧠' },
     { id: 'progress', label: 'Progress', emoji: '📊' },
+    { id: 'stories', label: 'Stories', emoji: '📖' },
     { id: 'settings', label: 'Settings', emoji: '⚙️' },
   ];
 
